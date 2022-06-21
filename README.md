@@ -1,4 +1,4 @@
-# Advanced Analytics &amp; Machine Learning over Regulated &amp; Sensitive Data
+# Advanced Analytics &amp; ML over Regulated &amp; Sensitive Data
 Sample solution template to perform advanced analytics and machine learning in the Azure cloud over tokenized data coming from on premise environment.  
 
 # Business Needs &amp; Requirements
