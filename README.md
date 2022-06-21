@@ -192,7 +192,7 @@ Tokenized fields: VendorID, PULocationID, DOLocationID
 Contact with MTC Istanbul Team
 
 # Team
-- Rahmi Atılgener, CSA
-- Işıl Efe, CE
-- Mustafa Asiroglu, MTC TA
-- Arzu Turkeli, MTC TA
+- Rahmi Atılgener, Cloud Solution Architect
+- Işıl Efe, Customer Engineer
+- Mustafa Asiroglu, MTC Technical Architect
+- Arzu Turkeli, MTC Technical Architect
