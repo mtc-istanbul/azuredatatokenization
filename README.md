@@ -21,7 +21,7 @@ The machine learning prediction code developed in python is a sample in this dem
 
 # Reference Solution Architecture
 
-# ![](RackMultipart20220621-1-7x3ryn_html_a6162c139773986b.png)
+# ![](https://raw.githubusercontent.com/mtc-istanbul/azuredatatokenization/main/images/Picture1.png)
 
 #
 
@@ -68,17 +68,17 @@ We created a simple app utilizing Microsoft Power Apps for management and approv
 
 Splash screen of the app:
 
-![](RackMultipart20220621-1-7x3ryn_html_bb7bc2b73754f76b.png)
+![](https://raw.githubusercontent.com/mtc-istanbul/azuredatatokenization/main/images/Picture2.png)
 
 New Copy request can be created using simple UX as shown below. User selects data source, source table &amp; columns and selects fields to be tokenized.
 
-![](RackMultipart20220621-1-7x3ryn_html_1db1a91eeb54cab7.png)
+![](https://raw.githubusercontent.com/mtc-istanbul/azuredatatokenization/main/images/Picture3.png)
 
-![](RackMultipart20220621-1-7x3ryn_html_b7c55dc614e5a704.png)
+![](https://raw.githubusercontent.com/mtc-istanbul/azuredatatokenization/main/images/Picture4.png)
 
 When request is submitted by requestor, the app sends a notification to default approver via Teams or email. This notification and approval mechanism is created using Power Automate and can be easily customized based on business needs.
 
-![](RackMultipart20220621-1-7x3ryn_html_ffa69b998611836.png)
+![](https://raw.githubusercontent.com/mtc-istanbul/azuredatatokenization/main/images/Picture5.png)
 
 Then approver opens the app and approves/rejects the request after review.
 
