@@ -82,7 +82,7 @@ When request is submitted by requestor, the app sends a notification to default 
 
 Then approver opens the app and approves/rejects the request after review.
 
-![](RackMultipart20220621-1-7x3ryn_html_1f544899df853d89.png)
+![](https://raw.githubusercontent.com/mtc-istanbul/azuredatatokenization/main/images/Picture6.png)
 
 After approver approves the request, it updates metadata database with new copy activity record. Then, Azure Synapse Data Pipeline checks this database for pending actions and triggers tokenization and data transfer job.
 
@@ -94,7 +94,7 @@ Azure Synapse Analytics has two pipelines:
 
 This general structure of the pipeline is reflected in Figure 1:
 
-![Inserting image...](RackMultipart20220621-1-7x3ryn_html_6894cd72b94b8cec.png)
+![Inserting image...](https://raw.githubusercontent.com/mtc-istanbul/azuredatatokenization/main/images/Picture7.png)
 
 Figure 1: Move Data to Azure Pipeline
 
@@ -104,7 +104,7 @@ Figure 1: Move Data to Azure Pipeline
 
 In ForEach Loop
 
-![Inserting image...](RackMultipart20220621-1-7x3ryn_html_f4ea4b8da314bdf2.png)
+![Inserting image...](https://raw.githubusercontent.com/mtc-istanbul/azuredatatokenization/main/images/Picture8.png)
 
 **GenerateMissedTokensForTable:** Trigger an SP to Populate tbTokens Table with original Data and Tokens. in next executions if tokens exist for a specific original value, procedure did not generate new token again.
 
@@ -114,7 +114,7 @@ In ForEach Loop
 
 **Pipeline 2: Get Back To On-Premise**
 
-![](RackMultipart20220621-1-7x3ryn_html_27849998af52d01.png)
+![](https://raw.githubusercontent.com/mtc-istanbul/azuredatatokenization/main/images/Picture9.png)
 
 **GetDetokenizeOperationList** : Get List of Data Detokenize operations from MetaData Tables
 
@@ -122,7 +122,7 @@ In ForEach Loop
 
 In ForEach Loop
 
-![](RackMultipart20220621-1-7x3ryn_html_3388e4779ebfed81.png)
+![](https://raw.githubusercontent.com/mtc-istanbul/azuredatatokenization/main/images/Picture10.png)
 
 **SP CreateTemporaryTableOnDeTokenizeTarget :** Create a Temporary Table on DeTokenize Target for join tokens to get original values
 
@@ -144,37 +144,37 @@ _Please run all codes in Python3. _
 
 **Notebooks from Azure ML studio used.**
 
-## ![](RackMultipart20220621-1-7x3ryn_html_d6ff178090c16ae5.png)
+## ![](https://raw.githubusercontent.com/mtc-istanbul/azuredatatokenization/main/images/Picture11.png)
 
 ##
 
 
-## ![](RackMultipart20220621-1-7x3ryn_html_da3d06400fdb1d13.png)
+## ![](https://raw.githubusercontent.com/mtc-istanbul/azuredatatokenization/main/images/Picture12.png)
 
 ##
 
 
-![](RackMultipart20220621-1-7x3ryn_html_74b84b5011d08380.png)
+![](https://raw.githubusercontent.com/mtc-istanbul/azuredatatokenization/main/images/Picture13.png)
 
 - Notebook name: Files\&gt; taxi-results \&gt; TaxiData-PredictTipAmount.ipynb
 - Tip\_amount is predicted in this python code with linear regression model.
 - Training runs are logged in batch-taxi-data experiment with MAE and R2 metrics.
 
-![](RackMultipart20220621-1-7x3ryn_html_c99dd894771466be.png)
+![](https://raw.githubusercontent.com/mtc-istanbul/azuredatatokenization/main/images/Picture14.png)
 
 - Trained model is registered to keep versions.
 
-![](RackMultipart20220621-1-7x3ryn_html_e338b32cd8970a98.png)
+![](https://raw.githubusercontent.com/mtc-istanbul/azuredatatokenization/main/images/Picture15.png)
 
 - Inference pipeline is created for prediction.
 
-![](RackMultipart20220621-1-7x3ryn_html_f027685153d70055.png)
+![](https://raw.githubusercontent.com/mtc-istanbul/azuredatatokenization/main/images/Picture16.png)
 
 **Input Data with tokenized sensitive columns**
 
 Tokenized fields: VendorID, PULocationID, DOLocationID
 
-# ![](RackMultipart20220621-1-7x3ryn_html_13d649013c147258.png)
+# ![](https://raw.githubusercontent.com/mtc-istanbul/azuredatatokenization/main/images/Picture17.png)
 
 **End to End data science solution from getting data to prediction in Python notebook:**
 - Get Tokenized Data
@@ -184,7 +184,7 @@ Tokenized fields: VendorID, PULocationID, DOLocationID
 - Make Predictions
 
 **Output Data with Predictions (sensitive data- tokenized)**
-# ![](RackMultipart20220621-1-7x3ryn_html_9d926f09d72da48f.png)
+# ![](https://raw.githubusercontent.com/mtc-istanbul/azuredatatokenization/main/images/Picture18.png)
 
 # Azure Solutions Used
 - Business Applications: Power Platform – Power Apps
