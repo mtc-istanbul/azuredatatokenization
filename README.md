@@ -19,12 +19,12 @@ Microsoft can provide a sample data tokenization stored procedure. On the other 
 
 The machine learning prediction code developed in python is a sample in this demonstration. Microsoft does not provide a final solution. Customers must develop their own machine learning code.
 
-# Reference Solution Architecture
+# Solution Architecture
 
 # ![](https://raw.githubusercontent.com/mtc-istanbul/azuredatatokenization/main/architecture.svg)
 
 
-# Objectives:
+# Objectives
 
 - Data is masked with tokenization logic at on-premises servers/customer environment. In order to perform this task, there is a stored procedure at customer environment that performs data tokenization. Data tokenization is requested from an application (Data Tokenization App) that is developed on no code/low code app development platform - Microsoft Power Apps.
 
