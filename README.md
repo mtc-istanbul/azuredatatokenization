@@ -21,7 +21,7 @@ The machine learning prediction code developed in python is a sample in this dem
 
 # Reference Solution Architecture
 
-# ![](https://raw.githubusercontent.com/mtc-istanbul/azuredatatokenization/main/images/Picture1.png)
+# ![](https://raw.githubusercontent.com/mtc-istanbul/azuredatatokenization/main/architecture.svg)
 
 
 # Objectives:
