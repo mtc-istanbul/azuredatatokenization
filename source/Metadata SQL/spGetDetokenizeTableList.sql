@@ -1,0 +1,3 @@
+Create Procedure spGetDetokenizeTableList
+as 
+select distinct SourceFolder, TargetTable from tbDetokenizeDefinition
