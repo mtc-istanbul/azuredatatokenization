@@ -23,8 +23,6 @@ The machine learning prediction code developed in python is a sample in this dem
 
 # ![](https://raw.githubusercontent.com/mtc-istanbul/azuredatatokenization/main/images/Picture1.png)
 
-#
-
 
 # Objectives:
 
@@ -57,7 +55,6 @@ Prediction with Tokenized Data, and write results into Synapse Analytics Workspa
   - Metadata Parts can be hold separated SQL Server
   - Token Generator, Detokenized procedures and Tokens table must be hold on Source Database (it uses joins with original table, token table and/or result table)
 
-#
 
 
 # Technical Details
