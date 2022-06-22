@@ -73,7 +73,7 @@ New Copy request can be created using simple UX as shown below. User selects dat
 
 ![](https://raw.githubusercontent.com/mtc-istanbul/azuredatatokenization/main/images/Picture4.png)
 
-When request is submitted by requestor, the app sends a notification to default approver via Teams or email. This notification and approval mechanism is created using Power Automate and can be easily customized based on business needs.
+When request is submitted by requestor, the app sends a notification to default approver via Teams. This notification and approval mechanism is created using Power Automate and can be easily customized based on business needs.
 
 ![](https://raw.githubusercontent.com/mtc-istanbul/azuredatatokenization/main/images/Picture5.png)
 
