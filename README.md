@@ -59,7 +59,7 @@ Prediction with Tokenized Data, and write results into Synapse Analytics Workspa
 
 # Technical Details
 
-## Power Apps
+## Power Apps for Management & Approvals
 
 We created a simple app utilizing Microsoft Power Apps for management and approval process for the reference solution. This app works on metadata SQL database which includes table names, column names, selected columns for tokenization and approval process data.
 
@@ -183,15 +183,16 @@ Tokenized fields: VendorID, PULocationID, DOLocationID
 **Output Data with Predictions (sensitive data- tokenized)**
 # ![](https://raw.githubusercontent.com/mtc-istanbul/azuredatatokenization/main/images/Picture18.png)
 
-# Azure Solutions Used
-- Business Applications: Power Platform – Power Apps
-- Data &amp; AI: Azure Synapse Analytics
-- Data &amp; AI: Azure Machine Learning
+# Microsoft Solutions Used
+- Power Apps & Power Automate
+- Azure Synapse Analytics
+- Azure Machine Learning
+- Microsoft Teams
 
 # Links to access demo environment
 Contact with MTC Istanbul Team
 
-# Team
+# Technical Core Team
 - Rahmi Atılgener, Cloud Solution Architect
 - Işıl Efe, Customer Engineer
 - Mustafa Asiroglu, MTC Technical Architect
